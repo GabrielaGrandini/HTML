@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+
+.light-theme {
+    color: #62007a;
+    background: #e4b5b5;
+}
