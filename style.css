@@ -5,15 +5,15 @@ body {
 ul {
     font-family: helvetica;
 }
-
-li {
-    list-style: circle;
-}
 .list {
-    list-style: square;
+    list-style: circle;
+    font-family: monospace;
 }
-
 .light-theme {
-    color: #62007a;
-    background: #e4b5b5;
+    color: #000000;
+    background: #311d7a7e;
+}
+.src{
+    border-radius: 50%;
+    border: none;
 }
