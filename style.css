@@ -10,10 +10,52 @@ ul {
     font-family: monospace;
 }
 .light-theme {
-    color: #000000;
-    background: #311d7a7e;
+    color: #ffffff;
+    background: linear-gradient(to bottom,  #1d082e, rgb(135, 153, 152) 50%, rgb(15, 19, 31) 80%);
 }
-.src{
-    border-radius: 50%;
-    border: none;
-}
+.container {
+    text-align: center;
+  }
+  .border-radius {
+    width: 500px;
+    height: auto;
+    border-radius:10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+ 
+  th, td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ffffff4d;
+    text-align: center;
+  }
+ 
+  th {
+    background-color: #006994b3;
+    font-weight: 700;
+  }
+ 
+  tbody tr:hover {
+    background-color: #2e86de4d;
+  }
+a {
+    color: #ffffff;
+    text-decoration: none;;
+    font-weight: bold;
+  }
+ 
+  a:hover {
+    text-decoration: underline;
+  }
+
+  teste {
+    color: #ffffff;
+    text-decoration: none;;
+    font-weight: bold;
+  }
