@@ -56,3 +56,7 @@ body{
     background: #f5c9d0;
     background: radial-gradient(circle,rgba(245, 201, 208, 1) 0%, rgba(255, 248, 227, 1) 100%);
 }
+a {
+    text-decoration: none;
+    color: black
+}
