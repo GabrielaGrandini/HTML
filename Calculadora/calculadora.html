@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora básica</title>
+    <title>Calculadora</title>
      <link rel="stylesheet" href="css/style.css">
 </head>
 </head>
@@ -32,12 +32,11 @@
                <input type="button" value='-' onclick="setOperacao('subtrair')"class="op">
                <br>
                <input type="button" value='0' onclick="inserir('0')">
-               <input type="button" value='.' onclick="('.')">
+               <input type="button" value='.' onclick="inserir('.')">
                <input type="button" value='C' onclick="Clear()" id="clear">
                <input type="button" value='+' onclick="setOperacao('somar')" class="op">
                <br>
-               <input type="button" value='' onclick="Back()" id="backspace">
-               <input type="submit" value='=' onclick="calcular()">
+               <input type="submit" value='=' onclick="calcular()" class="igual">
             </div>
 
       </div>

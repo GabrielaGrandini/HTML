@@ -15,7 +15,7 @@ function inserir(valor){
     operacao = op;
     valorAnterior = valorAtual;
     valorAtual = '';
-  document.getElementById('display').textContent = ''; // limpa o display para o próximo número
+    document.getElementById('display').textContent = ''; // limpa o display para o próximo número
   }
 
 function calcular() {
@@ -26,6 +26,7 @@ function Clear() {
     display.value = '';
     operacao = '';
     valorAtual = '';
+    document.getElementById('display').textContent = '';
 }
 
   async function calcular() {

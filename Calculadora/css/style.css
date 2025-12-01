@@ -51,3 +51,11 @@ body {
       height: 50px;
       overflow-x: auto;
     }
+
+    #clear:hover {
+        background-color: red;
+    }
+
+    .igual:hover {
+        background-color: green;
+    }
