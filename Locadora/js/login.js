@@ -1,17 +1,4 @@
 
-function salvar(){
-    const senha = document.getElementById('senha').value;
-    const log = document.getElementById('log').value;
-
-    if (cpf && email) {
-        localStorage.setItem('senha', cpf);
-        localStorage.setItem('log', email);
-        alert('Dados salvos localmente!');
-    } else {
-        alert('Por favor, preencha todos os campos.');
-    }
-}  
-  
   
   document.getElementById("login").addEventListener('submit', async function(e) {
          e.preventDefault();
@@ -44,7 +31,7 @@ function salvar(){
                 document.getElementById('erro').textContent = data.erro;
             } else {
                 document.getElementById('resultado').textContent = data.resultado;
-                window.location.assign("http://127.0.0.1:5500/cadastroClientes.html");;
+                window.location.assign("http://127.0.0.1:5500/carros.html");;
             }
         } catch (err) {
             document.getElementById('erro').textContent = 'Erro' + err.message;

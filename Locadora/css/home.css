@@ -26,6 +26,7 @@ body{
 header {
 background-color: rgba(214, 121, 237, 0.751);
 padding-bottom: 20px;
+position: relative;
 }
 
 .navbar {
@@ -249,3 +250,88 @@ hr {
 
 }
 
+.carro1 {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 370px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.carro1 img {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.carro1 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.carro1:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+button {
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    background-color: rgb(89, 89, 249);
+    width: 20vh;
+    border: none;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+button:hover {
+    background-color: rgb(63, 63, 177);
+    border: none;
+    cursor: pointer;
+}
+
+#Honda {
+    height: 220px;
+}
+
+.honda {
+    margin-bottom: 5px;
+}
+
+#Corolla{
+    height: 200px;
+    width: 330px;
+    margin-left: 40px;
+}
+
+.coro{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.sec1 {
+    display: flex;
+    padding-left: 70px;
+}
+
+#gol {
+  height: 200px;
+  width: 300px;
+
+}
+.sec2 {
+    display: flex;
+    padding-left: 70px;
+}
+
+.gol {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
