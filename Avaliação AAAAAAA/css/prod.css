@@ -1,0 +1,142 @@
+header {
+    background-color: rgb(193, 245, 245);
+    margin-top: -28px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+header img {
+    height: 190px;
+    margin-top: -50px;
+    margin-bottom: -40px;
+}
+
+header li {
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(rgb(170, 213, 241), rgb(252, 255, 255));
+}
+
+
+footer {
+    background-color: rgb(193, 245, 245);
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -8px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(134, 200, 255);
+    padding: 10px
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(191, 191, 207);
+}
+
+.prod1, .prod2,.prod3 {
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.secao {
+    columns: 3;
+    margin-bottom: 170px;
+
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+nav li {
+    color: black;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+nav {
+    margin-left: 100vh;
+    margin-top: 5px;
+    font-size: 25px;
+
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(191, 191, 207);
+}
+
+.setoca {
+    display: flex;
+    padding-top: 30px;
+}
+
+.prod1 img {
+    height: 250px;
+    margin-left: 4px;
+}
+
+.prod2 img {
+    height: 250px;
+    margin-left: 11px;
+}
+
+.prod3 img {
+    height: 250px;
+    margin-left: 4px;
+}
+
+.prod1:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+ .prod2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+ .prod3:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
